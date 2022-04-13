@@ -1,4 +1,4 @@
-# your's-bank
+# Bussiness-bank
 INTRODUCTION:
 The bank account management system is an application allowing customers to perform basic transactions from an automatic machine Bank, telephone, via a computer or with a smartphone via the Internet. The system allows the customer to create an account, deposit / withdraw money from his account, as well as view reports from all accounts present.
 Customers can access the banks' website to view their account details and perform the transactions on their account according to their requirements. The connection is made by secure access.
