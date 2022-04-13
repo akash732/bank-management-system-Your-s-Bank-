@@ -1,0 +1,35 @@
+
+{% extends 'template.html' %}
+
+{% block content %}
+
+    <div class="container text-center">
+
+        <div class="row">
+            <div class="col">
+                <p class="fs-3">Balance</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <p>Amount in {{acc_no}} = {{bal[0]}}</p>
+            </div>
+        </div>
+        <hr>
+
+        <div class="row">
+            <div class="col">
+                <p class="fs-3">Card Details</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <p>Card no. - {{cards[0][0]}}</p>
+                <p>Card type - {{cards[0][1]}}</p>
+                <p>Card exp date - {{cards[0][2]}}</p>
+            </div>
+        </div>
+
+    </div>
+    
+{% endblock %}
